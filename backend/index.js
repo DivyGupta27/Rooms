@@ -1,0 +1,36 @@
+const express = require('express')
+const app =express()
+const DB = require('./database')
+DB()
+const Rooms =require('./Models/rooms.model')
+const cors = require('cors')
+
+app.use(cors())
+app.use(express.json())
+
+app.get('/',(req,res)=>{
+    res.status(200).send('hello world')
+})
+
+app.use('/api/auth', require('./Router/auth.router'))
+
+app.get('/rooms',async(req,res)=>{
+    try{
+        let getroom=await Rooms.find({})
+        res.status(200).send({
+            status:true,
+            message:getroom
+        })
+    }
+    catch(error){
+        res.send({
+            status:false,
+            message:error
+        })
+    }
+})
+
+
+app.listen(8000,()=>{
+    console.log('the server is runnig on http://localhost:8000')
+})
