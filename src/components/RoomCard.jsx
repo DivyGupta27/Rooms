@@ -1,4 +1,6 @@
 import React from 'react'
+import Marquee from "react-fast-marquee";
+
 
 const RoomCard = ({name,price,ex1,ex2,ex3,image}) => {
   return (
@@ -89,7 +91,7 @@ const RoomCard = ({name,price,ex1,ex2,ex3,image}) => {
         </svg>
 
         <div className="mt-1.5 sm:mt-0 ">
-          <p className="text-gray-500">{ex3}</p>
+          <Marquee speed={40} className="text-gray-500">{ex3}</Marquee>
 
           <p className="font-medium">♾️</p>
         </div>
