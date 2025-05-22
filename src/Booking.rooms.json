@@ -1,0 +1,1235 @@
+[{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff954"
+  },
+  "id": "W-BUS-200",
+  "type": "workplace",
+  "category": "business",
+  "name": "CoWork Surat Suites",
+  "description": "Early term very support last blood move event close unit price themselves.",
+  "location": "Surat, India",
+  "price": 1401.08,
+  "amenities": [
+    "spa",
+    "parking",
+    "cultural performances",
+    "breakfast included"
+  ],
+  "image": "https://coworkingers.com/wp-content/uploads/2020/07/Coworq-Coworking-Space-005.jpg",
+  "rating": 4.7,
+  "tags": [
+    "romantic"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff955"
+  },
+  "id": "D-BUS-201",
+  "type": "destination",
+  "category": "business",
+  "name": "Taj Shimla Hub",
+  "description": "Newspaper similar west ever describe before campaign.",
+  "location": "Shimla, India",
+  "price": 1259.27,
+  "amenities": [
+    "breakfast included",
+    "sun deck",
+    "laundry service",
+    "cultural performances"
+  ],
+  "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/04/54/36/taj-theog-facade-image.jpg?w=900&h=500&s=1",
+  "rating": 4.6,
+  "tags": [
+    "eco-friendly"
+  ],
+  "destinationType": "historic"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff956"
+  },
+  "id": "H-LUX-202",
+  "type": "hotel",
+  "category": "luxury",
+  "name": "Hotel Udaipur Houseboats",
+  "description": "Water necessary police fear not provide agency.",
+  "location": "Udaipur, India",
+  "price": 1067.08,
+  "amenities": [
+    "laundry service",
+    "gym",
+    "breakfast included",
+    "conference room",
+    "spa",
+    "pool"
+  ],
+  "image": "https://www.indiapersonaltours.com/blog_images/luxury-houseboats-in-udaipur-floating-palaces-on-lake-pichola.jpg",
+  "rating": 4.5,
+  "tags": [
+    "family",
+    "quiet"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff957"
+  },
+  "id": "D-VAC-203",
+  "type": "destination",
+  "category": "vacation",
+  "name": "Taj Bangalore Houseboats",
+  "description": "Huge change Republican day they will strategy person something property civil.",
+  "location": "Bangalore, India",
+  "price": 1381.22,
+  "amenities": [
+    "fishing gear",
+    "AC",
+    "free wifi",
+    "laundry service",
+    "spa",
+    "pool"
+  ],
+  "image": "https://r1imghtlak.mmtcdn.com/a80b993acfd211ed812e0a58a9feac02.jpg",
+  "rating": 3.8,
+  "tags": [
+    "eco-friendly",
+    "cultural",
+    "quiet"
+  ],
+  "destinationType": "historic"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff958"
+  },
+  "id": "W-BUS-204",
+  "type": "workplace",
+  "category": "business",
+  "name": "CoWork Darjeeling Center",
+  "description": "Court recently education item only film act bar.",
+  "location": "Darjeeling, India",
+  "price": 1248.46,
+  "amenities": [
+    "gym",
+    "parking",
+    "sun deck",
+    "AC",
+    "pool"
+  ],
+  "image": "https://content.jdmagicbox.com/v2/comp/bangalore/i6/080pxx80.xx80.170902135317.h3i6/catalogue/innov8-koramangala-bangalore-virtual-local-offices-lrhuw1chu1.jpg",
+  "rating": 3.9,
+  "tags": [
+    "scenic"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff959"
+  },
+  "id": "W-RES-205",
+  "type": "workplace",
+  "category": "resort",
+  "name": "CoWork Shimla Center",
+  "description": "Expert better however her despite interview knowledge.",
+  "location": "Shimla, India",
+  "price": 2135.48,
+  "amenities": [
+    "laundry service",
+    "gym",
+    "free wifi"
+  ],
+  "image": "https://content.jdmagicbox.com/comp/pune/c8/020pxx20.xx20.220130034515.m9c8/catalogue/wework-futura-kirtane-baugh-hadapsar-pune-coworking-space-on-rent-jmm2d7lh51.jpg",
+  "rating": 4.6,
+  "tags": [
+    "romantic",
+    "cultural",
+    "family"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff95a"
+  },
+  "id": "D-LUX-206",
+  "type": "destination",
+  "category": "luxury",
+  "name": "Taj Chennai Houseboats",
+  "description": "Worry up hear ever space guy stage wife there bad establish ahead general.",
+  "location": "Chennai, India",
+  "price": 3177.42,
+  "amenities": [
+    "gym",
+    "AC",
+    "fishing gear"
+  ],
+  "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/29/22/fb/exterior-facade-evening.jpg?w=900&h=500&s=1",
+  "rating": 3.6,
+  "tags": [
+    "family",
+    "pet-friendly",
+    "scenic"
+  ],
+  "destinationType": "historic"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff95b"
+  },
+  "id": "W-BUD-207",
+  "type": "workplace",
+  "category": "budget",
+  "name": "CoWork Dehradun Hub",
+  "description": "Use military either attorney probably strong author energy business side.",
+  "location": "Dehradun, India",
+  "price": 1154.81,
+  "amenities": [
+    "AC",
+    "free wifi",
+    "gym",
+    "laundry service"
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAktll2GzIRl_vpSqSnICXdq2YGcp0er5eRg&s",
+  "rating": 4.8,
+  "tags": [
+    "family"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff95c"
+  },
+  "id": "W-VAC-208",
+  "type": "workplace",
+  "category": "vacation",
+  "name": "CoWork Rishikesh Center",
+  "description": "Will commercial always worry though help get range involve morning.",
+  "location": "Rishikesh, India",
+  "price": 1233.55,
+  "amenities": [
+    "gym",
+    "laundry service",
+    "cultural performances",
+    "AC",
+    "breakfast included"
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo2DNJBOz8E2npb_z7Cwju0MFTdebkP3QsSw&s",
+  "rating": 4.9,
+  "tags": [
+    "romantic"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff95d"
+  },
+  "id": "W-RES-209",
+  "type": "workplace",
+  "category": "resort",
+  "name": "CoWork Goa Hub",
+  "description": "Item shoulder take Republican wait college style let similar where lose.",
+  "location": "Goa, India",
+  "price": 3258.17,
+  "amenities": [
+    "parking",
+    "conference room",
+    "breakfast included",
+    "gym"
+  ],
+  "image": "https://cdn.prod.website-files.com/66a08e07fa6352714fc1d6da/6736ec19d167feb1bf674b9e_66fb0869eeeb3a849af59e40_66a0ab162bdfd06a6a08f1d7_Ignite.jpeg",
+  "rating": 4.7,
+  "tags": [
+    "scenic",
+    "pet-friendly",
+    "eco-friendly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff95e"
+  },
+  "id": "D-VAC-210",
+  "type": "destination",
+  "category": "vacation",
+  "name": "Taj Goa Center",
+  "description": "Product describe around news final indeed mouth tell event job sea upon year.",
+  "location": "Goa, India",
+  "price": 2395.46,
+  "amenities": [
+    "pool",
+    "AC",
+    "cultural performances",
+    "fishing gear"
+  ],
+  "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/323638476.jpg?k=235e047c23f7cff54cbf24ec65bd7a68c0463417126d9994090112f43da853d6&o=&hp=1",
+  "rating": 4,
+  "tags": [
+    "eco-friendly",
+    "family"
+  ],
+  "destinationType": "adventure"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff95f"
+  },
+  "id": "H-BUD-211",
+  "type": "hotel",
+  "category": "budget",
+  "name": "Hotel Darjeeling Suites",
+  "description": "Design democratic direction address mean it happy smile discuss toward including only feeling.",
+  "location": "Darjeeling, India",
+  "price": 1300.6,
+  "amenities": [
+    "free wifi",
+    "fishing gear",
+    "cultural performances"
+  ],
+  "image": "https://i0.wp.com/udaanhotels.com/wp-content/uploads/2021/03/Udaan-Dekeling-Resort-Darjeeling-Hero-Image.jpg?fit=1024%2C649&ssl=1",
+  "rating": 3.7,
+  "tags": [
+    "pet-friendly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff960"
+  },
+  "id": "W-BUS-212",
+  "type": "workplace",
+  "category": "business",
+  "name": "CoWork Surat Hub",
+  "description": "Another lot out hair consumer food building until item some.",
+  "location": "Surat, India",
+  "price": 3623.17,
+  "amenities": [
+    "fishing gear",
+    "parking",
+    "free wifi",
+    "pool"
+  ],
+  "image": "https://coworker.imgix.net/photos/india/surat/smart-minds-meeting-hub/main.jpg?w=360&h=206&q=90&auto=format,compress&fit=crop&mark=/template/img/wm_icon.png&markscale=5&markalign=center,middle",
+  "rating": 3.8,
+  "tags": [
+    "eco-friendly",
+    "scenic"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff961"
+  },
+  "id": "W-VAC-213",
+  "type": "workplace",
+  "category": "vacation",
+  "name": "CoWork Kerala Suites",
+  "description": "Choose a structure church dog performance son both technology.",
+  "location": "Kerala, India",
+  "price": 2145.03,
+  "amenities": [
+    "AC",
+    "gym",
+    "fishing gear",
+    "sun deck",
+    "pool",
+    "cultural performances"
+  ],
+  "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/323638476.jpg?k=235e047c23f7cff54cbf24ec65bd7a68c0463417126d9994090112f43da853d6&o=&hp=1",
+  "rating": 3.6,
+  "tags": [
+    "cultural",
+    "romantic",
+    "family"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff962"
+  },
+  "id": "W-VAC-214",
+  "type": "workplace",
+  "category": "vacation",
+  "name": "CoWork Agra Retreat",
+  "description": "Themselves how my common around Congress see laugh.",
+  "location": "Agra, India",
+  "price": 1431.78,
+  "amenities": [
+    "conference room",
+    "sun deck",
+    "parking"
+  ],
+  "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/84166603.jpg?k=0b05617099f88ecf1dfdd883e8a2e81f9c65e8512680c96e77b143bb5503ec00&o=",
+  "rating": 4.6,
+  "tags": [
+    "cultural"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff963"
+  },
+  "id": "H-BUD-215",
+  "type": "hotel",
+  "category": "budget",
+  "name": "Hotel Lucknow Houseboats",
+  "description": "Term someone city base structure paper nature window meeting budget must over put.",
+  "location": "Lucknow, India",
+  "price": 1266.9,
+  "amenities": [
+    "sun deck",
+    "free wifi",
+    "cultural performances"
+  ],
+  "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/7e/e7/e1/welcomheritage-gurkha.jpg?w=500&h=-1&s=1",
+  "rating": 3.5,
+  "tags": [
+    "pet-friendly",
+    "family"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff964"
+  },
+  "id": "W-BUS-216",
+  "type": "workplace",
+  "category": "business",
+  "name": "CoWork Manali Houseboats",
+  "description": "Around occur relate middle issue down technology theory show street same bed.",
+  "location": "Manali, India",
+  "price": 3212.47,
+  "amenities": [
+    "sun deck",
+    "fishing gear",
+    "cultural performances",
+    "breakfast included",
+    "free wifi",
+    "pool"
+  ],
+  "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/84166603.jpg?k=0b05617099f88ecf1dfdd883e8a2e81f9c65e8512680c96e77b143bb5503ec00&o=",
+  "rating": 3.9,
+  "tags": [
+    "family"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff965"
+  },
+  "id": "W-VAC-217",
+  "type": "workplace",
+  "category": "vacation",
+  "name": "CoWork Darjeeling Houseboats",
+  "description": "Forget stand least prepare field probably boy sort.",
+  "location": "Darjeeling, India",
+  "price": 2197.67,
+  "amenities": [
+    "parking",
+    "pool",
+    "spa",
+    "free wifi"
+  ],
+  "image": "https://www.tourmyindia.com/states/jammu-kashmir/image/royal-dandoo-palace-of-houseboats2.jpg",
+  "rating": 4.6,
+  "tags": [
+    "eco-friendly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff966"
+  },
+  "id": "W-VAC-218",
+  "type": "workplace",
+  "category": "vacation",
+  "name": "CoWork Nagpur Retreat",
+  "description": "Ability positive Republican third like identify exactly.",
+  "location": "Nagpur, India",
+  "price": 1378.5,
+  "amenities": [
+    "sun deck",
+    "breakfast included",
+    "fishing gear",
+    "spa",
+    "gym"
+  ],
+  "image": "https://websiteupload.s3.ap-south-1.amazonaws.com/media/2024/07/common_area_2.webp",
+  "rating": 3.5,
+  "tags": [
+    "pet-friendly",
+    "eco-friendly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff967"
+  },
+  "id": "D-VAC-219",
+  "type": "destination",
+  "category": "vacation",
+  "name": "Taj Goa Suites",
+  "description": "Factor road knowledge film century police management difference film send.",
+  "location": "Goa, India",
+  "price": 2203,
+  "amenities": [
+    "laundry service",
+    "fishing gear",
+    "sun deck"
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzlTUAPb3NBWZKi2doD36SJjh4r2rk8fwY7w&s",
+  "rating": 3.9,
+  "tags": [
+    "romantic",
+    "family",
+    "cultural"
+  ],
+  "destinationType": "adventure"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff968"
+  },
+  "id": "D-BUD-220",
+  "type": "destination",
+  "category": "budget",
+  "name": "Taj Rishikesh Hub",
+  "description": "Cost agent should may color after land whatever step seem finally tonight word describe.",
+  "location": "Rishikesh, India",
+  "price": 3173.67,
+  "amenities": [
+    "pool",
+    "cultural performances",
+    "gym",
+    "laundry service",
+    "AC",
+    "fishing gear"
+  ],
+  "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/253789082.jpg?k=c1e15d4c5956ebd311b72c67add8f68634713dbe08fbcf85128191548db50655&o=&hp=1",
+  "rating": 3.8,
+  "tags": [
+    "family",
+    "romantic"
+  ],
+  "destinationType": "adventure"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff969"
+  },
+  "id": "W-VAC-221",
+  "type": "workplace",
+  "category": "vacation",
+  "name": "CoWork Hyderabad Hub",
+  "description": "According box business protect medical different.",
+  "location": "Hyderabad, India",
+  "price": 1236.58,
+  "amenities": [
+    "laundry service",
+    "parking",
+    "gym",
+    "conference room",
+    "fishing gear",
+    "free wifi"
+  ],
+  "image": "https://t-hub.co/wp-content/uploads/2023/11/Co-working-spaces-2.jpg",
+  "rating": 4.6,
+  "tags": [
+    "family",
+    "cultural",
+    "romantic"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff96a"
+  },
+  "id": "H-RES-222",
+  "type": "hotel",
+  "category": "resort",
+  "name": "Hotel Hyderabad Suites",
+  "description": "Push main support eye represent material stop put manage wrong special.",
+  "location": "Hyderabad, India",
+  "price": 2244.57,
+  "amenities": [
+    "laundry service",
+    "AC",
+    "sun deck"
+  ],
+  "image": "https://assets.simplotel.com/simplotel/image/upload/w_5000,h_3333/x_0,y_522,w_4996,h_2810,r_0,c_crop,q_90,fl_progressive/w_900,f_auto,c_fit/hotel-daspalla-hyderabad/Suites_at_Hotel_Daspalla_Hyderabad_5_f2lkdz?1746489600197",
+  "rating": 4.1,
+  "tags": [
+    "family",
+    "cultural",
+    "romantic"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff96b"
+  },
+  "id": "W-BUS-223",
+  "type": "workplace",
+  "category": "business",
+  "name": "CoWork Nagpur Hub",
+  "description": "Prove behind day tonight worker of.",
+  "location": "Nagpur, India",
+  "price": 3165.27,
+  "amenities": [
+    "AC",
+    "pool",
+    "fishing gear",
+    "breakfast included",
+    "sun deck"
+  ],
+  "image": "https://t-hub.co/wp-content/uploads/2023/11/Co-working-spaces-2.jpg",
+  "rating": 3.5,
+  "tags": [
+    "cultural",
+    "romantic"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff96c"
+  },
+  "id": "H-LUX-224",
+  "type": "hotel",
+  "category": "luxury",
+  "name": "Hotel Indore Hub",
+  "description": "Yard item mind child practice general character.",
+  "location": "Indore, India",
+  "price": 1270.76,
+  "amenities": [
+    "fishing gear",
+    "pool",
+    "cultural performances",
+    "conference room",
+    "AC"
+  ],
+  "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/83/97/c4/sayaji-indore-hotel.jpg?w=1200&h=-1&s=1",
+  "rating": 4.5,
+  "tags": [
+    "scenic",
+    "quiet"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff96d"
+  },
+  "id": "D-BUD-225",
+  "type": "destination",
+  "category": "budget",
+  "name": "Taj Indore Retreat",
+  "description": "Question real lot production yet security father foreign when green story.",
+  "location": "Indore, India",
+  "price": 1204.27,
+  "amenities": [
+    "conference room",
+    "parking",
+    "pool",
+    "breakfast included",
+    "AC",
+    "sun deck"
+  ],
+  "image": "https://media.biltrax.com/wp-content/uploads/2024/05/News-Article-Cover-Images-2024-05-08T111301.118.png",
+  "rating": 4.3,
+  "tags": [
+    "quiet",
+    "family",
+    "scenic"
+  ],
+  "destinationType": "nature"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff96e"
+  },
+  "id": "D-BUS-226",
+  "type": "destination",
+  "category": "business",
+  "name": "Taj Jaipur Houseboats",
+  "description": "Possible claim ok card professor factor miss wide building certainly send study.",
+  "location": "Jaipur, India",
+  "price": 3233.43,
+  "amenities": [
+    "AC",
+    "gym",
+    "spa",
+    "pool"
+  ],
+  "image": "https://api.blessingsonthenet.com/uploads/hotels/51184477050a81d1335a098f09fc5440-1689219271206-Jai%20Mahal%20Palace,%20Jaipur.jpg",
+  "rating": 4.5,
+  "tags": [
+    "family",
+    "pet-friendly"
+  ],
+  "destinationType": "nature"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff96f"
+  },
+  "id": "H-LUX-227",
+  "type": "hotel",
+  "category": "luxury",
+  "name": "Hotel Jaipur Houseboats",
+  "description": "Laugh apply plant concern realize close eye house education word particularly.",
+  "location": "Jaipur, India",
+  "price": 1108.99,
+  "amenities": [
+    "gym",
+    "AC",
+    "conference room",
+    "parking",
+    "sun deck",
+    "cultural performances"
+  ],
+  "image": "https://content.jdmagicbox.com/comp/def_content/house-boats-on-hire/f72917cc62-house-boats-on-hire-5-vha64.jpg",
+  "rating": 4.7,
+  "tags": [
+    "pet-friendly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff970"
+  },
+  "id": "W-LUX-228",
+  "type": "workplace",
+  "category": "luxury",
+  "name": "CoWork Goa Retreat",
+  "description": "Official rich voice wind short four short budget possible.",
+  "location": "Goa, India",
+  "price": 2335.28,
+  "amenities": [
+    "conference room",
+    "parking",
+    "sun deck",
+    "gym"
+  ],
+  "image": "https://t-hub.co/wp-content/uploads/2023/11/Co-working-spaces-2.jpg",
+  "rating": 3.7,
+  "tags": [
+    "quiet",
+    "cultural",
+    "eco-friendly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff971"
+  },
+  "id": "D-BUD-229",
+  "type": "destination",
+  "category": "budget",
+  "name": "Taj Rishikesh Center",
+  "description": "Onto cultural work else material stay seven sing college call run west identify.",
+  "location": "Rishikesh, India",
+  "price": 2487,
+  "amenities": [
+    "sun deck",
+    "free wifi",
+    "gym"
+  ],
+  "image": "https://www.theluxevoyager.com/wp-content/uploads/2019/06/Taj-Rishikesh-Resort-and-Spa-Uttarakhand-pool.jpg",
+  "rating": 4.8,
+  "tags": [
+    "pet-friendly",
+    "eco-friendly"
+  ],
+  "destinationType": "relaxation"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff972"
+  },
+  "id": "W-BUS-230",
+  "type": "workplace",
+  "category": "business",
+  "name": "CoWork Bhopal Suites",
+  "description": "Say skin perhaps talk only begin kind require five thank prevent move.",
+  "location": "Bhopal, India",
+  "price": 2545.56,
+  "amenities": [
+    "pool",
+    "cultural performances",
+    "breakfast included",
+    "conference room",
+    "gym"
+  ],
+  "image": "https://t-hub.co/wp-content/uploads/2023/11/Co-working-spaces-2.jpg",
+  "rating": 5,
+  "tags": [
+    "scenic",
+    "eco-friendly",
+    "family"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff973"
+  },
+  "id": "W-LUX-231",
+  "type": "workplace",
+  "category": "luxury",
+  "name": "CoWork Amritsar Retreat",
+  "description": "Cell increase need foot political book bit thus father spring.",
+  "location": "Amritsar, India",
+  "price": 2405.5,
+  "amenities": [
+    "free wifi",
+    "cultural performances",
+    "spa",
+    "pool",
+    "gym"
+  ],
+  "image": "https://d1s8lxxyjoicqu.cloudfront.net/web/ssr/pages/home/home-hero-2.jpg?width=1920",
+  "rating": 4.9,
+  "tags": [
+    "romantic"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff974"
+  },
+  "id": "W-BUS-232",
+  "type": "workplace",
+  "category": "business",
+  "name": "CoWork Chennai Retreat",
+  "description": "Fact plan population bank perform single if process future.",
+  "location": "Chennai, India",
+  "price": 1451.12,
+  "amenities": [
+    "conference room",
+    "fishing gear",
+    "free wifi",
+    "breakfast included"
+  ],
+  "image": "https://www.tourmyindia.com/states/jammu-kashmir/image/royal-dandoo-palace-of-houseboats2.jpg",
+  "rating": 4.8,
+  "tags": [
+    "eco-friendly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff975"
+  },
+  "id": "W-BUD-233",
+  "type": "workplace",
+  "category": "budget",
+  "name": "CoWork Bangalore Suites",
+  "description": "Although car school letter them human join account owner range.",
+  "location": "Bangalore, India",
+  "price": 3395.7,
+  "amenities": [
+    "cultural performances",
+    "spa",
+    "gym"
+  ],
+  "image": "https://www.unispacebc.com/images/portfolio/whitefield-4.jpg",
+  "rating": 4,
+  "tags": [
+    "quiet",
+    "eco-friendly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff976"
+  },
+  "id": "D-VAC-234",
+  "type": "destination",
+  "category": "vacation",
+  "name": "Taj Ooty Retreat",
+  "description": "Wonder heart strategy a nothing care personal now individual fast capital traditional.",
+  "location": "Ooty, India",
+  "price": 1422.62,
+  "amenities": [
+    "conference room",
+    "gym",
+    "spa",
+    "parking"
+  ],
+  "image": "https://www.seleqtionshotels.com/content/dam/gateway/hotels/GW-Savoy_Ooty/gallery/080W4144_3x2.png",
+  "rating": 4.8,
+  "tags": [
+    "pet-friendly",
+    "eco-friendly",
+    "family"
+  ],
+  "destinationType": "historic"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff977"
+  },
+  "id": "H-BUS-235",
+  "type": "hotel",
+  "category": "business",
+  "name": "Hotel Amritsar Houseboats",
+  "description": "East indeed culture on rock scientist thank.",
+  "location": "Amritsar, India",
+  "price": 1564.19,
+  "amenities": [
+    "pool",
+    "AC",
+    "breakfast included",
+    "laundry service"
+  ],
+  "image": "https://r1imghtlak.ibcdn.com/5ad1fc608af611ee871c0a58a9feac02.jpg?&output-quality=75&downsize=350:238&crop=350:238;3,0&output-format=jpg",
+  "rating": 4,
+  "tags": [
+    "quiet"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff978"
+  },
+  "id": "D-LUX-236",
+  "type": "destination",
+  "category": "luxury",
+  "name": "Taj Coimbatore Suites",
+  "description": "Force soon bad represent market service wait another seem meet that.",
+  "location": "Coimbatore, India",
+  "price": 1027.84,
+  "amenities": [
+    "pool",
+    "free wifi",
+    "spa",
+    "sun deck",
+    "AC"
+  ],
+  "image": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201111221336068199-2f814bec41e211e7be9702755708f0b3.jpg",
+  "rating": 4.6,
+  "tags": [
+    "pet-friendly",
+    "scenic",
+    "quiet"
+  ],
+  "destinationType": "cultural"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff979"
+  },
+  "id": "H-RES-237",
+  "type": "hotel",
+  "category": "resort",
+  "name": "Hotel Hyderabad Center",
+  "description": "Compare rock pressure fight skill leave I cell interest.",
+  "location": "Hyderabad, India",
+  "price": 2140.46,
+  "amenities": [
+    "conference room",
+    "parking",
+    "cultural performances",
+    "pool",
+    "laundry service",
+    "fishing gear"
+  ],
+  "image": "https://media-cdn.tripadvisor.com/media/photo-s/1a/51/5b/08/facade.jpg",
+  "rating": 4.3,
+  "tags": [
+    "cultural"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff97a"
+  },
+  "id": "H-LUX-238",
+  "type": "hotel",
+  "category": "luxury",
+  "name": "Hotel Mysore Center",
+  "description": "Admit develop car economic thus wide.",
+  "location": "Mysore, India",
+  "price": 3352.09,
+  "amenities": [
+    "free wifi",
+    "laundry service",
+    "gym",
+    "parking",
+    "fishing gear"
+  ],
+  "image": "https://media-cdn.tripadvisor.com/media/photo-s/02/c7/a0/12/hotel-sandesh-the-prince.jpg",
+  "rating": 4.3,
+  "tags": [
+    "pet-friendly",
+    "romantic"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff97b"
+  },
+  "id": "H-LUX-239",
+  "type": "hotel",
+  "category": "luxury",
+  "name": "Hotel Kerala Suites",
+  "description": "Probably task second your first modern wear full land medical.",
+  "location": "Kerala, India",
+  "price": 1497.61,
+  "amenities": [
+    "pool",
+    "free wifi",
+    "breakfast included",
+    "gym",
+    "spa",
+    "conference room"
+  ],
+  "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/83/89/b0/a-truly-luxuriously-appointed.jpg?w=900&h=500&s=1",
+  "rating": 4.7,
+  "tags": [
+    "eco-friendly",
+    "cultural",
+    "quiet"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff97c"
+  },
+  "id": "H-RES-240",
+  "type": "hotel",
+  "category": "resort",
+  "name": "Hotel Surat Houseboats",
+  "description": "Along sing until size stay all debate though.",
+  "location": "Surat, India",
+  "price": 4346.75,
+  "amenities": [
+    "free wifi",
+    "breakfast included",
+    "parking"
+  ],
+  "image": "https://content.jdmagicbox.com/comp/srinagar/h7/9999px194.x194.200304214733.j9h7/catalogue/triumph-houseboats-lal-bazar-srinagar-3-star-hotels-i93WQAxyZd.jpg",
+  "rating": 3.6,
+  "tags": [
+    "pet-friendly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff97d"
+  },
+  "id": "H-BUS-241",
+  "type": "hotel",
+  "category": "business",
+  "name": "Hotel Kolkata Suites",
+  "description": "Animal pay rise figure clearly finish story include.",
+  "location": "Kolkata, India",
+  "price": 2241.37,
+  "amenities": [
+    "sun deck",
+    "laundry service",
+    "breakfast included",
+    "conference room",
+    "gym"
+  ],
+  "image": "https://www.thelalit.com/wp-content/uploads/2024/09/victorian-suite1.jpg",
+  "rating": 4,
+  "tags": [
+    "quiet"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff97e"
+  },
+  "id": "H-BUD-242",
+  "type": "hotel",
+  "category": "budget",
+  "name": "Hotel Dehradun Hub",
+  "description": "Will energy collection hold environmental similar.",
+  "location": "Dehradun, India",
+  "price": 1465.17,
+  "amenities": [
+    "laundry service",
+    "breakfast included",
+    "AC",
+    "fishing gear",
+    "free wifi",
+    "cultural performances"
+  ],
+  "image": "https://pix10.agoda.net/hotelImages/41085589/-1/8872706e16d9f000b9fc7ef300bd2289.jpg?ce=0&s=702x392",
+  "rating": 3.9,
+  "tags": [
+    "family"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff97f"
+  },
+  "id": "D-VAC-243",
+  "type": "destination",
+  "category": "vacation",
+  "name": "Taj Delhi Suites",
+  "description": "Happy political wrong happen college tend save most just least someone sign.",
+  "location": "Delhi, India",
+  "price": 1431.27,
+  "amenities": [
+    "sun deck",
+    "cultural performances",
+    "pool",
+    "breakfast included",
+    "spa",
+    "laundry service"
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPcRKbxXhs8eOp5f8OK4XJbYhGkMZnXMYZ7g&s",
+  "rating": 4.4,
+  "tags": [
+    "quiet"
+  ],
+  "destinationType": "nature"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff980"
+  },
+  "id": "D-VAC-244",
+  "type": "destination",
+  "category": "vacation",
+  "name": "Taj Shimla Houseboats",
+  "description": "State perform issue director quite action hit ago cause nice difficult.",
+  "location": "Shimla, India",
+  "price": 2305.14,
+  "amenities": [
+    "free wifi",
+    "sun deck",
+    "conference room"
+  ],
+  "image": "https://api.blessingsonthenet.com/uploads/hotels/946624fd1e63b0b4bd316f0ab8b5b060-1690473328869-Taj%20Theog%20Resort%20&%20Spa,%20Shimla1.jpeg",
+  "rating": 3.9,
+  "tags": [
+    "family",
+    "cultural"
+  ],
+  "destinationType": "adventure"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff981"
+  },
+  "id": "D-RES-245",
+  "type": "destination",
+  "category": "resort",
+  "name": "Taj Ahmedabad Retreat",
+  "description": "Term writer beat push person can discuss travel season.",
+  "location": "Ahmedabad, India",
+  "price": 3136.51,
+  "amenities": [
+    "cultural performances",
+    "fishing gear",
+    "spa"
+  ],
+  "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/29/10/d3/amd-reception.jpg?w=900&h=500&s=1",
+  "rating": 4,
+  "tags": [
+    "romantic",
+    "quiet",
+    "pet-friendly"
+  ],
+  "destinationType": "cultural"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff982"
+  },
+  "id": "D-BUS-246",
+  "type": "destination",
+  "category": "business",
+  "name": "Taj Delhi Retreat",
+  "description": "Accept gas vote trip behind third pretty.",
+  "location": "Delhi, India",
+  "price": 1248.18,
+  "amenities": [
+    "fishing gear",
+    "laundry service",
+    "breakfast included"
+  ],
+  "image": "https://www.seleqtionshotels.com/content/dam/luxury/hotels/taj-palace-delhi/images/at_a_glance/16x7/Facade3.jpg/jcr:content/renditions/cq5dam.web.512.512.jpeg",
+  "rating": 4.3,
+  "tags": [
+    "family"
+  ],
+  "destinationType": "adventure"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff983"
+  },
+  "id": "D-RES-247",
+  "type": "destination",
+  "category": "resort",
+  "name": "Taj Agra Center",
+  "description": "Him light special main cover wall safe pass picture him example poor relate.",
+  "location": "Agra, India",
+  "price": 4228.74,
+  "amenities": [
+    "cultural performances",
+    "conference room",
+    "sun deck",
+    "spa"
+  ],
+  "image": "https://www.hotelierindia.com/cloud/2025/01/22/1.-Taj-Hotel-Convention-Centre-Agra-1.jpg",
+  "rating": 4.2,
+  "tags": [
+    "romantic"
+  ],
+  "destinationType": "cultural"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff984"
+  },
+  "id": "D-BUD-248",
+  "type": "destination",
+  "category": "budget",
+  "name": "Taj Darjeeling Retreat",
+  "description": "Job court term side author imagine artist sometimes point money task.",
+  "location": "Darjeeling, India",
+  "price": 2398.14,
+  "amenities": [
+    "laundry service",
+    "sun deck",
+    "parking",
+    "free wifi",
+    "breakfast included",
+    "fishing gear"
+  ],
+  "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/294680919.jpg?k=6e69f0a5f19f22ec4665c7c7954793c196ff9707604841623987281ee8335d0c&o=&hp=1",
+  "rating": 4.5,
+  "tags": [
+    "quiet"
+  ],
+  "destinationType": "adventure"
+},
+{
+  "_id": {
+    "$oid": "6827819eca4047fff2cff985"
+  },
+  "id": "D-BUD-249",
+  "type": "destination",
+  "category": "budget",
+  "name": "Taj Vizag Retreat",
+  "description": "Would expert and trade policy property brother perhaps usually maintain bad thank.",
+  "location": "Vizag, India",
+  "price": 3131.05,
+  "amenities": [
+    "cultural performances",
+    "parking",
+    "free wifi"
+  ],
+  "image": "https://media2.thrillophilia.com/images/photos/000/330/692/original/1594731486_7535_ho_00_p_2048x1536.jpg?w=753&h=450&dpr=1.5",
+  "rating": 3.5,
+  "tags": [
+    "romantic",
+    "family",
+    "pet-friendly"
+  ],
+  "destinationType": "historic"
+}]
