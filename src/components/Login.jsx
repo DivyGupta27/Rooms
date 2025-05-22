@@ -56,7 +56,7 @@ const loginForm=async(e)=>{
 		<h1 className="my-3 text-4xl font-bold">Login</h1>
 		<p className="text-sm dark:text-gray-600">Login to access your account</p>
 	</div>
-	<form noValidate="" action="" onClick={loginForm} className="space-y-12">
+	<form noValidate="" action="" onSubmit={loginForm} className="space-y-12">
 		<div className="space-y-4">
 			<div>
 				<label htmlFor="email" className="block mb-2 text-sm">Email address</label>
