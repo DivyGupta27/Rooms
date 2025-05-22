@@ -6,6 +6,7 @@ const jwt = require('jsonwebtoken')
 require('dotenv').config()
 const secretKey = process.env.SECRET_KEY
 
+
 router.post('/signup', async (req, res) => {
     const { email, number, password } = req.body;
     try {
@@ -47,42 +48,37 @@ router.post("/login", async (req, res) => {
   const { email, password } = req.body;
 
   try {
-    let user = await userAuth.findOne({ email: email });
-    console.log(user);
+    const user = await userAuth.findOne({ email });
     if (!user) {
-      res.status(400).send({
+      return res.status(400).send({
         success: false,
-        message: "email does not exist",
+        message: "Email does not exist",
       });
     }
 
     const isMatch = await bcrypt.compare(password, user.password);
-    console.log(isMatch);
     if (!isMatch) {
-      res.status(400).send({
+      return res.status(400).send({
         success: false,
-        message: "invalid email or password",
+        message: "Invalid email or password",
       });
     }
 
-    const data = {
-      id: user._id,
-    };
+    const payload = { id: user._id };
+    const token = jwt.sign(payload, secretKey, { expiresIn: '7d' });
 
-    const token = jwt.sign(data, secretKey);
-
-    console.log(token);
-
-    res.send({
+    return res.send({
       success: true,
-      message: "login successfully",
+      message: "Login successful",
       userData: user,
-      token: token,
+      token,
     });
+
   } catch (error) {
-    res.status(500).send({
+    return res.status(500).send({
       success: false,
-      message: "internal server error",
+      message: "Internal server error",
+      error: error.message,
     });
   }
 });
