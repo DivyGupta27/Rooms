@@ -98,18 +98,26 @@ const NavbarV2 = () => {
         </div>
 
         {/* Categories (Desktop Only) */}
-        <div className="hidden md:flex justify-center space-x-2 pb-3">
-          {['All', 'Luxury', 'Budget', 'Business', 'Resorts', 'Vacation'].map(
-            (item) => (
-              <button
-                key={item}
-                className="px-4 py-1 text-sm rounded-full hover:bg-gray-100"
-              >
-                {item}
-              </button>
-            )
-          )}
-        </div>
+      <div className="hidden md:flex justify-center space-x-2 pb-3">
+  <Link to='/' className="px-4 py-1 text-sm rounded-full hover:bg-gray-100">
+    All
+  </Link>
+  <Link to='/luxary' className="px-4 py-1 text-sm rounded-full hover:bg-gray-100">
+    Luxury
+  </Link>
+  <Link to='budget' className="px-4 py-1 text-sm rounded-full hover:bg-gray-100">
+    Budget
+  </Link>
+  <Link to='business' className="px-4 py-1 text-sm rounded-full hover:bg-gray-100">
+    Business
+  </Link>
+  <Link to='resort' className="px-4 py-1 text-sm rounded-full hover:bg-gray-100">
+    Resorts
+  </Link>
+  <Link to="vacation" className="px-4 py-1 text-sm rounded-full hover:bg-gray-100">
+    Vacation
+  </Link>
+</div>
 
         {/* Mobile Menu */}
         {mobileOpen && (

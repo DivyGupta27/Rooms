@@ -91,7 +91,7 @@ const RoomCard = ({name,price,ex1,ex2,ex3,image}) => {
         </svg>
 
         <div className="mt-1.5 sm:mt-0 ">
-          <Marquee speed={40} className="text-gray-500">{ex3}</Marquee>
+          {ex3.length>9?<Marquee speed={40} className="text-gray-500">{ex3}</Marquee>:<p className="text-gray-500">{ex3}</p>}
 
           <p className="font-medium">♾️</p>
         </div>
