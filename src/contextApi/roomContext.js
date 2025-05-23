@@ -1,5 +1,4 @@
-import { createContext } from "react";
+import { createContext } from 'react';
 
-let room=createContext()
-
-export default room
+const RoomContext = createContext();
+export default RoomContext;

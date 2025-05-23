@@ -16,6 +16,7 @@ const ShowRooms = ({ type, category }) => {
       {filteredRooms.map((room, i) => (
         <RoomCard
           key={i}
+          id={room._id.$oid}
           name={room.name}
           price={room.price}
           ex1={room.amenities[0]}

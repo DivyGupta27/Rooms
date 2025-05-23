@@ -3,7 +3,7 @@ import { FiSearch, FiUser, FiMapPin, FiHeart, FiMenu, FiX } from 'react-icons/fi
 import { HiOutlineBuildingOffice2, HiOutlineHomeModern } from 'react-icons/hi2';
 import { MdOutlineVilla } from "react-icons/md";
 import { FaHeart } from "react-icons/fa";
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 
 const NavbarV2 = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -33,22 +33,22 @@ const NavbarV2 = () => {
             <Link
               to="/hotels"
               onClick={() => setActiveCategory('hotels')}
-              className={`flex items-center px-3 py-2 rounded-lg transition ${
+              className={`flex items-center hover:bg-gray-100 px-3 py-2 rounded-lg transition ${
                 activeCategory === 'hotels'
                   ? 'bg-rose-50 text-rose-600'
                   : 'hover:bg-gray-50'
               }`}
             >
-              <HiOutlineHomeModern className="mr-2" />
+              <HiOutlineHomeModern className="mr-2 " />
               Hotels
             </Link>
             <Link
               to="/workspaces"
               onClick={() => setActiveCategory('workspaces')}
-              className={`flex items-center px-3 py-2 rounded-lg transition ${
+              className={`flex items-center  px-3 py-2 rounded-lg transition ${
                 activeCategory === 'workspaces'
                   ? 'bg-rose-50 text-rose-600'
-                  : 'hover:bg-gray-50'
+                  : 'hover:bg-gray-100'
               }`}
             >
               <HiOutlineBuildingOffice2 className="mr-2" />
@@ -57,7 +57,7 @@ const NavbarV2 = () => {
             <Link
               to="/destinations"
               onClick={() => setActiveCategory('destinations')}
-              className={`flex items-center px-3 py-2 rounded-lg transition ${
+              className={`flex items-center hover:bg-gray-100 px-3 py-2 rounded-lg transition ${
                 activeCategory === 'destinations'
                   ? 'bg-rose-50 text-rose-600'
                   : 'hover:bg-gray-50'
@@ -99,25 +99,72 @@ const NavbarV2 = () => {
 
         {/* Categories (Desktop Only) */}
       <div className="hidden md:flex justify-center space-x-2 pb-3">
-  <Link to='/' className="px-4 py-1 text-sm rounded-full hover:bg-gray-100">
-    All
-  </Link>
-  <Link to='/luxary' className="px-4 py-1 text-sm rounded-full hover:bg-gray-100">
-    Luxury
-  </Link>
-  <Link to='budget' className="px-4 py-1 text-sm rounded-full hover:bg-gray-100">
-    Budget
-  </Link>
-  <Link to='business' className="px-4 py-1 text-sm rounded-full hover:bg-gray-100">
-    Business
-  </Link>
-  <Link to='resort' className="px-4 py-1 text-sm rounded-full hover:bg-gray-100">
-    Resorts
-  </Link>
-  <Link to="vacation" className="px-4 py-1 text-sm rounded-full hover:bg-gray-100">
-    Vacation
-  </Link>
-</div>
+      <NavLink
+        to="/"
+        className={({ isActive }) =>
+          `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${
+            isActive ? 'bg-rose-50 text-rose-600' : ''
+          }`
+        }
+      >
+        All
+      </NavLink>
+
+      <NavLink
+        to="/luxary"
+        className={({ isActive }) =>
+          `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${
+            isActive ? 'bg-rose-50 text-rose-600' : ''
+          }`
+        }
+      >
+        Luxury
+      </NavLink>
+
+      <NavLink
+        to="/budget"
+        className={({ isActive }) =>
+          `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${
+            isActive ? 'bg-rose-50 text-rose-600' : ''
+          }`
+        }
+      >
+        Budget
+      </NavLink>
+
+      <NavLink
+        to="/business"
+        className={({ isActive }) =>
+          `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${
+            isActive ? 'bg-rose-50 text-rose-600' : ''
+          }`
+        }
+      >
+        Business
+      </NavLink>
+
+      <NavLink
+        to="/resort"
+        className={({ isActive }) =>
+          `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${
+            isActive ? 'bg-rose-50 text-rose-600' : ''
+          }`
+        }
+      >
+        Resorts
+      </NavLink>
+
+      <NavLink
+        to="/vacation"
+        className={({ isActive }) =>
+          `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${
+            isActive ? 'bg-rose-50 text-rose-600' : ''
+          }`
+        }
+      >
+        Vacation
+      </NavLink>
+    </div>
 
         {/* Mobile Menu */}
         {mobileOpen && (

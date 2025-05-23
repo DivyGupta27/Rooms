@@ -1,12 +1,14 @@
-import React from 'react'
-import roomContext from './roomContext'
-const RoomProvider = ({children}) => {
+import React, { useState } from 'react';
+import RoomContext from './RoomContext';
 
+const RoomProvider = ({ children }) => {
+  const [userid, setUserid] = useState(null);
+// {console.log(userid)}
   return (
-    <roomContext.Provider value={{}}>
-        {children}
-    </roomContext.Provider>
-  )
-}
+    <RoomContext.Provider value={{ userid, setUserid }}>
+      {children}
+    </RoomContext.Provider>
+  );
+};
 
-export default RoomProvider
+export default RoomProvider;

@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Marquee from "react-fast-marquee";
+import RoomContext from '../contextApi/RoomContext';
+import { useNavigate } from 'react-router-dom';
 
+const RoomCard = ({name,price,ex1,ex2,ex3,image,id}) => {
+  const {setUserid}=useContext(RoomContext)
+let navigate =useNavigate()
 
-const RoomCard = ({name,price,ex1,ex2,ex3,image}) => {
   return (
-    <div className='mt-3 w-85 h-90 rounded shadow-xl overflow-hidden hover:-translate-y-.5 hover:scale-105 transition'>
+    <div onClick={()=>{setUserid(id);navigate("/model")}}  className='mt-3 w-85 h-87 max-sm:h-90 rounded shadow-xl overflow-hidden hover:-translate-y-.5 hover:scale-105 transition'>
         <a className="block rounded-lg p-4 shadow-xs shadow-indigo-100">
   <img
     alt=""
@@ -27,7 +31,7 @@ const RoomCard = ({name,price,ex1,ex2,ex3,image}) => {
       </div>
     </dl>
 
-    <div className="mt-6 flex items-center gap-8 jusify-evenly text-xs">
+    <div className="mt-3 flex items-center md:pb-6 sm:pb-9 gap-8 jusify-evenly text-xs">
       <div className="sm:inline-flex sm:shrink-0 flex sm:items-center sm:gap-2">
         <svg
           className="size-4 text-indigo-700"
