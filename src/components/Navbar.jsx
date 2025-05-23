@@ -33,11 +33,10 @@ const NavbarV2 = () => {
             <Link
               to="/hotels"
               onClick={() => setActiveCategory('hotels')}
-              className={`flex items-center hover:bg-gray-100 px-3 py-2 rounded-lg transition ${
-                activeCategory === 'hotels'
+              className={`flex items-center hover:bg-gray-100 px-3 py-2 rounded-lg transition ${activeCategory === 'hotels'
                   ? 'bg-rose-50 text-rose-600'
                   : 'hover:bg-gray-50'
-              }`}
+                }`}
             >
               <HiOutlineHomeModern className="mr-2 " />
               Hotels
@@ -45,11 +44,10 @@ const NavbarV2 = () => {
             <Link
               to="/workspaces"
               onClick={() => setActiveCategory('workspaces')}
-              className={`flex items-center  px-3 py-2 rounded-lg transition ${
-                activeCategory === 'workspaces'
+              className={`flex items-center  px-3 py-2 rounded-lg transition ${activeCategory === 'workspaces'
                   ? 'bg-rose-50 text-rose-600'
                   : 'hover:bg-gray-100'
-              }`}
+                }`}
             >
               <HiOutlineBuildingOffice2 className="mr-2" />
               Workspaces
@@ -57,11 +55,10 @@ const NavbarV2 = () => {
             <Link
               to="/destinations"
               onClick={() => setActiveCategory('destinations')}
-              className={`flex items-center hover:bg-gray-100 px-3 py-2 rounded-lg transition ${
-                activeCategory === 'destinations'
+              className={`flex items-center hover:bg-gray-100 px-3 py-2 rounded-lg transition ${activeCategory === 'destinations'
                   ? 'bg-rose-50 text-rose-600'
                   : 'hover:bg-gray-50'
-              }`}
+                }`}
             >
               <FiMapPin className="mr-2" />
               Destinations
@@ -83,10 +80,16 @@ const NavbarV2 = () => {
                 <FiHeart className="text-gray-600" />
               )}
             </button>
-            <Link to='login' className="hidden md:flex items-center px-4 py-2 rounded-full bg-rose-600 text-white hover:bg-rose-700">
-              <FiUser className="mr-2" />
-              Login
-            </Link>
+            {
+              localStorage.getItem('token') ? <Link to='' onClick={() => localStorage.removeItem('token')} className="hidden md:flex items-center px-4 py-2 rounded-full bg-rose-600 text-white hover:bg-rose-700">
+                <FiUser className="mr-2" />
+                Logout
+              </Link> :
+                <Link to='login' className="hidden md:flex items-center px-4 py-2 rounded-full bg-rose-600 text-white hover:bg-rose-700">
+                  <FiUser className="mr-2" />
+                  Login
+                </Link>
+            }
             {/* Mobile Toggle */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
@@ -98,73 +101,67 @@ const NavbarV2 = () => {
         </div>
 
         {/* Categories (Desktop Only) */}
-      <div className="hidden md:flex justify-center space-x-2 pb-3">
-      <NavLink
-        to="/"
-        className={({ isActive }) =>
-          `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${
-            isActive ? 'bg-rose-50 text-rose-600' : ''
-          }`
-        }
-      >
-        All
-      </NavLink>
+        <div className="hidden md:flex justify-center space-x-2 pb-3">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${isActive ? 'bg-rose-50 text-rose-600' : ''
+              }`
+            }
+          >
+            All
+          </NavLink>
 
-      <NavLink
-        to="/luxury"
-        className={({ isActive }) =>
-          `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${
-            isActive ? 'bg-rose-50 text-rose-600' : ''
-          }`
-        }
-      >
-        Luxury
-      </NavLink>
+          <NavLink
+            to="/luxury"
+            className={({ isActive }) =>
+              `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${isActive ? 'bg-rose-50 text-rose-600' : ''
+              }`
+            }
+          >
+            Luxury
+          </NavLink>
 
-      <NavLink
-        to="/budget"
-        className={({ isActive }) =>
-          `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${
-            isActive ? 'bg-rose-50 text-rose-600' : ''
-          }`
-        }
-      >
-        Budget
-      </NavLink>
+          <NavLink
+            to="/budget"
+            className={({ isActive }) =>
+              `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${isActive ? 'bg-rose-50 text-rose-600' : ''
+              }`
+            }
+          >
+            Budget
+          </NavLink>
 
-      <NavLink
-        to="/business"
-        className={({ isActive }) =>
-          `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${
-            isActive ? 'bg-rose-50 text-rose-600' : ''
-          }`
-        }
-      >
-        Business
-      </NavLink>
+          <NavLink
+            to="/business"
+            className={({ isActive }) =>
+              `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${isActive ? 'bg-rose-50 text-rose-600' : ''
+              }`
+            }
+          >
+            Business
+          </NavLink>
 
-      <NavLink
-        to="/resorts"
-        className={({ isActive }) =>
-          `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${
-            isActive ? 'bg-rose-50 text-rose-600' : ''
-          }`
-        }
-      >
-        Resorts
-      </NavLink>
+          <NavLink
+            to="/resorts"
+            className={({ isActive }) =>
+              `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${isActive ? 'bg-rose-50 text-rose-600' : ''
+              }`
+            }
+          >
+            Resorts
+          </NavLink>
 
-      <NavLink
-        to="/vacation"
-        className={({ isActive }) =>
-          `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${
-            isActive ? 'bg-rose-50 text-rose-600' : ''
-          }`
-        }
-      >
-        Vacation
-      </NavLink>
-    </div>
+          <NavLink
+            to="/vacation"
+            className={({ isActive }) =>
+              `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${isActive ? 'bg-rose-50 text-rose-600' : ''
+              }`
+            }
+          >
+            Vacation
+          </NavLink>
+        </div>
 
         {/* Mobile Menu */}
         {mobileOpen && (
@@ -176,9 +173,8 @@ const NavbarV2 = () => {
                   setActiveCategory('hotels');
                   setMobileOpen(false);
                 }}
-                className={`flex items-center px-4 py-3 rounded-lg ${
-                  activeCategory === 'hotels' ? 'bg-rose-50 text-rose-600' : ''
-                }`}
+                className={`flex items-center px-4 py-3 rounded-lg ${activeCategory === 'hotels' ? 'bg-rose-50 text-rose-600' : ''
+                  }`}
               >
                 <HiOutlineHomeModern className="mr-3" />
                 Hotels
@@ -189,11 +185,10 @@ const NavbarV2 = () => {
                   setActiveCategory('workspaces');
                   setMobileOpen(false);
                 }}
-                className={`flex items-center px-4 py-3 rounded-lg ${
-                  activeCategory === 'workspaces'
+                className={`flex items-center px-4 py-3 rounded-lg ${activeCategory === 'workspaces'
                     ? 'bg-rose-50 text-rose-600'
                     : ''
-                }`}
+                  }`}
               >
                 <HiOutlineBuildingOffice2 className="mr-3" />
                 Workspaces
@@ -204,11 +199,10 @@ const NavbarV2 = () => {
                   setActiveCategory('destinations');
                   setMobileOpen(false);
                 }}
-                className={`flex items-center px-4 py-3 rounded-lg ${
-                  activeCategory === 'destinations'
+                className={`flex items-center px-4 py-3 rounded-lg ${activeCategory === 'destinations'
                     ? 'bg-rose-50 text-rose-600'
                     : ''
-                }`}
+                  }`}
               >
                 <FiMapPin className="mr-3" />
                 Destinations
@@ -217,20 +211,25 @@ const NavbarV2 = () => {
 
             <div className="grid grid-cols-2 gap-2 px-4 mt-4">
               {['Luxury', 'Budget', 'Business', 'Resorts'].map((item) => (
-                <Link
-    to={`/${item.toLowerCase()}`}
-    key={item.toLowerCase()}
-    className="px-3 py-2 text-sm rounded-lg bg-gray-100 hover:bg-gray-200"
-  >
-    {item}
-  </Link>
+                <Link onClick={() => setMobileOpen(!mobileOpen)}
+                  to={`/${item.toLowerCase()}`}
+                  key={item.toLowerCase()}
+                  className="px-3 py-2 text-sm rounded-lg bg-gray-100 hover:bg-gray-200"
+                >
+                  {item}
+                </Link>
               ))}
             </div>
 
-            <button className="w-full flex items-center justify-center space-x-2 py-3 px-4 mt-4 rounded-lg bg-rose-600 text-white hover:bg-rose-700">
+
+              {localStorage.getItem('token')?<Link to='/Signup' onClick={() =>{ setMobileOpen(!mobileOpen);localStorage.removeItem('token')}} className="w-full flex items-center justify-center space-x-2 py-3 px-4 mt-4 rounded-lg bg-rose-600 text-white hover:bg-rose-700" >
               <FiUser />
-              <span>Sign In</span>
-            </button>
+              <span>Logout</span>
+            </Link>:<Link to='/login' onClick={() => setMobileOpen(!mobileOpen)} className="w-full flex items-center justify-center space-x-2 py-3 px-4 mt-4 rounded-lg bg-rose-600 text-white hover:bg-rose-700" >
+              <FiUser />
+              <span>Login</span>
+            </Link>}
+            
           </div>
         )}
       </div>

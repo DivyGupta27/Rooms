@@ -4,12 +4,12 @@ const userSchema = new mongoose.Schema({
   email: {
     type: String,
     required: true,
-    unique: true, // ensure emails are not duplicated
+    unique: true, 
     lowercase: true,
     trim: true,
   },
   number: {
-    type: String, // use String to preserve leading 0s if any
+    type: String,
     required: true,
   },
   password: {
@@ -17,10 +17,9 @@ const userSchema = new mongoose.Schema({
     required: true,
   },
 }, {
-  timestamps: true, // adds createdAt and updatedAt fields automatically
+  timestamps: true, 
 });
 
-// Avoid model overwrite error in development (especially for Next.js or hot reload environments)
 const User = mongoose.models.User || mongoose.model('User', userSchema);
 
 module.exports = User;

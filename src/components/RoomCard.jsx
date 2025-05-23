@@ -2,13 +2,28 @@ import React, { useContext } from 'react'
 import Marquee from "react-fast-marquee";
 import RoomContext from '../contextApi/RoomContext';
 import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 const RoomCard = ({name,price,ex1,ex2,ex3,image,id}) => {
   const {setUserid}=useContext(RoomContext)
 let navigate =useNavigate()
-
+let getToken=localStorage.getItem('token')
+const handleClick = () => {
+    if(getToken) {
+      setUserid(id);
+      navigate("/model");
+    } else {
+      toast.error('login first', {
+              position: 'top-center',
+              autoClose: 4000,
+              theme: 'colored',
+            });
+            navigate("/login")
+    }
+  };
   return (
-    <div onClick={()=>{setUserid(id);navigate("/model")}}  className='mt-3 w-85 h-87 max-sm:h-90 rounded shadow-xl overflow-hidden hover:-translate-y-.5 hover:scale-105 transition'>
+    
+    <div onClick={handleClick}  className='mt-3 w-85 h-87 max-sm:h-90 rounded shadow-xl overflow-hidden hover:-translate-y-.5 hover:scale-105 transition'>
         <a className="block rounded-lg p-4 shadow-xs shadow-indigo-100">
   <img
     alt=""

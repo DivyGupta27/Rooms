@@ -1,9 +1,11 @@
 import React, { useContext } from 'react';
 import myroom from '../Booking.rooms.json';
 import RoomContext from '../contextApi/RoomContext';
+import { useNavigate } from 'react-router-dom';
 
 const Modal = () => {
   const { userid } = useContext(RoomContext);
+  const navigate=useNavigate()
 
   const room = myroom.find(room => room._id.$oid === userid);
 
@@ -20,7 +22,7 @@ const Modal = () => {
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl sm:text-2xl font-bold text-gray-800">{name}</h2>
           <button
-            onClick={() => window.history.back()}
+            onClick={() => navigate(-1)}
             className="text-gray-500 hover:text-gray-700 text-2xl font-bold"
           >
             &times;
@@ -52,11 +54,10 @@ const Modal = () => {
 
         {/* Close Button */}
         <div className="mt-6 text-right">
-          <button
-            onClick={() => window.history.back()}
+          <button onClick={()=>navigate('/booking')}
             className="px-4 py-2 bg-rose-600 text-white rounded-lg hover:bg-rose-700 transition text-sm sm:text-base"
           >
-            Close
+            Book a room
           </button>
         </div>
       </div>

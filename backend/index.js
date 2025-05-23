@@ -14,21 +14,8 @@ app.get('/',(req,res)=>{
 
 app.use('/api/auth', require('./Router/auth.router'))
 
-app.get('/rooms',async(req,res)=>{
-    try{
-        let getroom=await Rooms.find({})
-        res.status(200).send({
-            status:true,
-            message:getroom
-        })
-    }
-    catch(error){
-        res.send({
-            status:false,
-            message:error
-        })
-    }
-})
+app.use('/user', require('./Router/user.booking'))
+
 
 
 app.listen(8000,()=>{
