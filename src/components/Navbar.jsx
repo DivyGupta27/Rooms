@@ -111,7 +111,7 @@ const NavbarV2 = () => {
       </NavLink>
 
       <NavLink
-        to="/luxary"
+        to="/luxury"
         className={({ isActive }) =>
           `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${
             isActive ? 'bg-rose-50 text-rose-600' : ''
@@ -144,7 +144,7 @@ const NavbarV2 = () => {
       </NavLink>
 
       <NavLink
-        to="/resort"
+        to="/resorts"
         className={({ isActive }) =>
           `px-4 py-1 text-sm rounded-full hover:bg-gray-100 ${
             isActive ? 'bg-rose-50 text-rose-600' : ''
@@ -217,12 +217,13 @@ const NavbarV2 = () => {
 
             <div className="grid grid-cols-2 gap-2 px-4 mt-4">
               {['Luxury', 'Budget', 'Business', 'Resorts'].map((item) => (
-                <button
-                  key={item}
-                  className="px-3 py-2 text-sm rounded-lg bg-gray-100 hover:bg-gray-200"
-                >
-                  {item}
-                </button>
+                <Link
+    to={`/${item.toLowerCase()}`}
+    key={item.toLowerCase()}
+    className="px-3 py-2 text-sm rounded-lg bg-gray-100 hover:bg-gray-200"
+  >
+    {item}
+  </Link>
               ))}
             </div>
 

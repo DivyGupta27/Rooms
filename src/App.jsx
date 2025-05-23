@@ -24,10 +24,10 @@ const App = () => {
       <Route path='/hotels' element={<ShowRooms type="hotel"/>}/>
       <Route path='/workspaces' element={<ShowRooms type="workplace"/>}/>
       <Route path='/destinations' element={<ShowRooms type="destination"/>}/>
-      <Route path='/luxary' element={<ShowRooms category="luxury"/>}/>
+      <Route path='/luxury' element={<ShowRooms category="luxury"/>}/>
       <Route path='/budget' element={<ShowRooms category="budget"/>}/>
       <Route path='/business' element={<ShowRooms category="business"/>}/>
-      <Route path='/resort' element={<ShowRooms category="resort"/>}/>
+      <Route path='/resorts' element={<ShowRooms category="resort"/>}/>
       <Route path='/vacation' element={<ShowRooms category="vacation"/>}/>
       <Route path='/model' element={<Modal id={userid} />}/>
       
