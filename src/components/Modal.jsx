@@ -4,7 +4,7 @@ import RoomContext from '../contextApi/RoomContext';
 import { useNavigate } from 'react-router-dom';
 
 const Modal = () => {
-  const { userid } = useContext(RoomContext);
+  const { userid,setUserBookDetail } = useContext(RoomContext);
   const navigate=useNavigate()
 
   const room = myroom.find(room => room._id.$oid === userid);
@@ -13,7 +13,7 @@ const Modal = () => {
     return <div className="text-center text-gray-500">Room not found.</div>;
   }
 
-  const { name, description, location, price, rating, image, amenities } = room;
+  const { name, description, location, price, rating, image, amenities,id } = room;
 
   return (
     <div className="fixed inset-0 bg-gray-400 bg-opacity-50 flex justify-center items-center z-50 px-4 sm:px-6 md:px-8">
@@ -54,10 +54,10 @@ const Modal = () => {
 
         {/* Close Button */}
         <div className="mt-6 text-right">
-          <button onClick={()=>navigate('/booking')}
+          <button onClick={()=>{navigate('/booking');setUserBookDetail({hotel_name:name,room_id:id})}}
             className="px-4 py-2 bg-rose-600 text-white rounded-lg hover:bg-rose-700 transition text-sm sm:text-base"
           >
-            Book a room
+            Book now
           </button>
         </div>
       </div>

@@ -2,7 +2,6 @@ const express = require('express')
 const app =express()
 const DB = require('./database')
 DB()
-const Rooms =require('./Models/rooms.model')
 const cors = require('cors')
 
 app.use(cors())
@@ -14,7 +13,7 @@ app.get('/',(req,res)=>{
 
 app.use('/api/auth', require('./Router/auth.router'))
 
-app.use('/user', require('./Router/user.booking'))
+app.use('/user', require('./Router/booking.router'))
 
 
 

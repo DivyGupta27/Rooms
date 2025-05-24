@@ -3,9 +3,10 @@ import RoomContext from './RoomContext';
 
 const RoomProvider = ({ children }) => {
   const [userid, setUserid] = useState(null);
-// {console.log(userid)}
+
+  const [userBookDetail,setUserBookDetail]=useState({hotel_name:"",room_id:""})
   return (
-    <RoomContext.Provider value={{ userid, setUserid }}>
+    <RoomContext.Provider value={{ userid, setUserid,userBookDetail,setUserBookDetail }}>
       {children}
     </RoomContext.Provider>
   );

@@ -1,7 +1,15 @@
-import mongoose from "mongoose";
+const mongoose = require('mongoose');
 
 
 const UserBooking= new mongoose.Schema({
+    hotel_name:{
+        type:String,
+        required:true
+    },
+    room_id:{
+        type:String,
+        required:true
+    },
     name:{
         type:String,
         required:true
@@ -31,5 +39,5 @@ const UserBooking= new mongoose.Schema({
     }
 },{timestamps:true})
 
-let Booking=model('Booking',UserBooking)
+const Booking= mongoose.model('Booking',UserBooking)
 module.exports=Booking

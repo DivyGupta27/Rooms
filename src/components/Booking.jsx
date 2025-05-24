@@ -1,25 +1,102 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { toast } from 'react-toastify';
+import RoomContext from '../contextApi/RoomContext';
+import { useNavigate } from 'react-router-dom';
 
 const Booking = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    guests: 1,
-    check_in_date: '',
-    check_out_date: '',
-    message: '',
-  });
+  const { userBookDetail } = useContext(RoomContext)
+  const { hotel_name, room_id } = userBookDetail
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [guests, setGuests] = useState("");
+  const [check_in_date, setCheckin] = useState("");
+  const [check_out_date, setCheckout] = useState("");
+  const [message, setMessage] = useState("");
 
-  const handleChange = e => {
-    const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
-  };
+  const navigate=useNavigate()
+  // const [formData, setFormData] = useState({
+  //   name: '',
+  //   email: '',
+  //   guests: 1,
+  //   check_in_date: '',
+  //   check_out_date: '',
+  //   message: '',
+  //   hotel_name:hotel_name,
+  //   room_id:room_id
+  // });
 
-  const handleSubmit = e => {
+  const formData = {
+    name: name,
+    email: email,
+    guests: guests,
+    check_in_date: check_in_date,
+    check_out_date: check_out_date,
+    message: message,
+    hotel_name: hotel_name,
+    room_id: room_id
+  }
+
+
+  // const handleChange = e => {
+  //   const { name, value } = e.target;
+  //   setFormData(prev => ({ ...prev, [name]: value }));
+  // };
+
+  const handleSubmit = async e => {
     e.preventDefault();
-    console.log('Booking Data:', formData);
-    toast.success('Booking Submitted!');
+
+    try {
+      const token = localStorage.getItem('token'); // Get token if required for authentication
+
+      const response = await fetch('http://localhost:8000/user/booking', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          "auth-token": localStorage.getItem("token"),
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        toast.success('Booking Submitted Successfully!',
+          {
+            position: 'top-center',
+            autoClose: 4000,
+            theme: 'colored',
+          });
+        // setFormData({
+        //   name: '',
+        //   email: '',
+        //   guests: 1,
+        //   check_in_date: '',
+        //   check_out_date: '',
+        //   message: '',
+        //   hotel_name: '',
+        //   room_id: ''
+        // });
+          setName('')
+          setEmail('')
+          setGuests('')
+          setCheckin('')
+          setCheckout('')
+          setMessage('')
+          
+          navigate('/')
+
+      } else {
+        toast.error(data.message || 'Booking failed!'),
+        {
+          position: 'top-center',
+          autoClose: 4000,
+          theme: 'colored',
+        };
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      toast.error('Something went wrong while submitting your booking.');
+    }
   };
 
   return (
@@ -32,9 +109,9 @@ const Booking = () => {
             type="text"
             name="name"
             required
-            value={formData.name}
-            onChange={handleChange}
-            className="mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm focus:ring-rose-500 focus:border-rose-500"
+
+            onChange={(e) => { setName(e.target.value) }}
+            className="mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm"
             placeholder="John Doe"
           />
         </div>
@@ -44,9 +121,9 @@ const Booking = () => {
             type="email"
             name="email"
             required
-            value={formData.email}
-            onChange={handleChange}
-            className="mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm focus:ring-rose-500 focus:border-rose-500"
+
+            onChange={(e) => setEmail(e.target.value)}
+            className="mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm"
             placeholder="john@example.com"
           />
         </div>
@@ -57,9 +134,8 @@ const Booking = () => {
             name="guests"
             min="1"
             required
-            value={formData.guests}
-            onChange={handleChange}
-            className="mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm focus:ring-rose-500 focus:border-rose-500"
+            onChange={(e) => setGuests(e.target.value)}
+            className="mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm"
           />
         </div>
         <div>
@@ -68,9 +144,8 @@ const Booking = () => {
             type="date"
             name="check_in_date"
             required
-            value={formData.date}
-            onChange={handleChange}
-            className="mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm focus:ring-rose-500 focus:border-rose-500"
+            onChange={(e) => setCheckin(e.target.value)}
+            className="mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm"
           />
         </div>
         <div>
@@ -79,9 +154,8 @@ const Booking = () => {
             type="date"
             name="check_out_date"
             required
-            value={formData.date}
-            onChange={handleChange}
-            className="mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm focus:ring-rose-500 focus:border-rose-500"
+            onChange={(e) => setCheckout(e.target.value)}
+            className="mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm"
           />
         </div>
         <div>
@@ -89,9 +163,8 @@ const Booking = () => {
           <textarea
             name="message"
             rows="3"
-            value={formData.message}
-            onChange={handleChange}
-            className="mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm focus:ring-rose-500 focus:border-rose-500"
+            onChange={(e) => setMessage(e.target.value)}
+            className="mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm"
             placeholder="Any additional notes?"
           ></textarea>
         </div>
