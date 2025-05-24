@@ -10,6 +10,7 @@ import Modal from './components/Modal'
 import RoomContext from './contextApi/RoomContext'
 import Booking from './components/Booking'
 import PrivateRoute from './components/PrivateRoute';
+import Dashboard from './components/Dashboard'
 
 const App = () => {
   const {userid}=useContext(RoomContext)
@@ -30,7 +31,7 @@ const App = () => {
       <Route path='/business' element={<ShowRooms category="business"/>}/>
       <Route path='/resorts' element={<ShowRooms category="resort"/>}/>
       <Route path='/vacation' element={<ShowRooms category="vacation"/>}/>
-      {/* <Route path='/model' element={<Modal id={userid} />}/> */}
+      <Route path='/dashboard' element={<Dashboard/>}/>
       <Route
           path="/model"
           element={
