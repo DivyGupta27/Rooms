@@ -16,12 +16,12 @@ const Footer = () => {
 
           {/* Navigation Links - Stack on mobile, row on desktop */}
           <div className="grid grid-cols-3 gap-4 text-center sm:flex sm:space-x-4 sm:gap-0">
-            <a href="/" className="text-sm font-medium hover:text-pink-600 px-2 py-1">Hotels</a>
-            <a href="/" className="text-sm font-medium hover:text-pink-600 px-2 py-1">Workspaces</a>
-            <a href="/" className="text-sm font-medium hover:text-pink-600 px-2 py-1">Destinations</a>
-            <a href="/" className="text-sm font-medium hover:text-pink-600 px-2 py-1">Luxury</a>
-            <a href="/" className="text-sm font-medium hover:text-pink-600 px-2 py-1">Budget</a>
-            <a href="/" className="text-sm font-medium hover:text-pink-600 px-2 py-1">Resorts</a>
+            <a href="/hotels" className="text-sm font-medium hover:text-pink-600 px-2 py-1">Hotels</a>
+            <a href="/workspaces" className="text-sm font-medium hover:text-pink-600 px-2 py-1">Workspaces</a>
+            <a href="/destinations" className="text-sm font-medium hover:text-pink-600 px-2 py-1">Destinations</a>
+            <a href="/luxury" className="text-sm font-medium hover:text-pink-600 px-2 py-1">Luxury</a>
+            <a href="/budget" className="text-sm font-medium hover:text-pink-600 px-2 py-1">Budget</a>
+            <a href="/resorts" className="text-sm font-medium hover:text-pink-600 px-2 py-1">Resorts</a>
           </div>
 
           {/* Social Icons */}
