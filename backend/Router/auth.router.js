@@ -64,10 +64,7 @@ router.post("/login", async (req, res) => {
         message: "Invalid email or password",
       });
     }
-    // if(email=='admin123@gmail.com'){
-    //   const user = userAuth.findOne({ email });
-    //   try
-    // }
+   
     const payload = { id: user._id };
     const token = jwt.sign(payload, secretKey, { expiresIn: '7d' });
     console.log(token)
