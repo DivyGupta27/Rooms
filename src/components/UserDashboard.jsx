@@ -8,7 +8,7 @@ const UserDashboard = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:8000/user/getUserBooking', {
+      const response = await fetch('https://booking-y3rp.onrender.com/user/getUserBooking', {
         headers: {
           'auth-token': localStorage.getItem('token'),
         },

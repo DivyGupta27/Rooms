@@ -48,7 +48,7 @@ const Booking = () => {
     try {
       const token = localStorage.getItem('token'); // Get token if required for authentication
 
-      const response = await fetch('http://localhost:8000/user/booking', {
+      const response = await fetch('https://booking-y3rp.onrender.com/user/booking', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

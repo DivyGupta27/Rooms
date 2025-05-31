@@ -29,7 +29,7 @@ const AdminPanel = () => {
     try {
       const token = localStorage.getItem("token");
 
-      const response = await fetch('http://localhost:8000/admin/admindata', {
+      const response = await fetch('https://booking-y3rp.onrender.com/admin/admindata', {
         method: 'GET',
         headers: {
           'auth-token': token,
@@ -55,7 +55,7 @@ const AdminPanel = () => {
     try {
       const token = localStorage.getItem("token");
 
-      const response = await fetch(`http://localhost:8000/admin/delete/${bookingId}`, {
+      const response = await fetch(`https://booking-y3rp.onrender.com/admin/delete/${bookingId}`, {
         method: 'DELETE',
         headers: {
           'auth-token': token,
